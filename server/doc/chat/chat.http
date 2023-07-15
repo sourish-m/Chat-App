@@ -1,0 +1,23 @@
+POST http://localhost:5000/chat
+Content-Type: application/json
+
+# senderId: Sender
+{
+  "senderId": "62e57fceca1f789d6f92dd54",
+  "receiverId": "62b201ddf33478e5829fb856"
+}
+
+###
+# Demo Data
+#{
+#  "members": [
+#    "62e57fceca1f789d6f92dd54",
+#    "62b201ddf33478e5829fb856"
+#  ],
+#  "_id": "62ef4bf09ad8684fbac4e74e",
+#  "createdAt": "2022-08-07T05:21:52.684Z",
+#  "updatedAt": "2022-08-07T05:21:52.684Z",
+#  "__v": 0
+#}
+#
+#Response code: 200 (OK); Time: 132ms; Content length: 186 bytes
